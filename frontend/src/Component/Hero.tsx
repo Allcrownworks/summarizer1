@@ -15,7 +15,7 @@ const Hero = () => {
         <div>
           <button
             type="button"
-            onClick={() => window.open("https://github.com/")}
+            onClick={() => window.open("https://github.com/Allcrownworks/summarizer.git")}
             className="py-1 px-8 bg-orange-500 rounded-lg text-white"
           >
             Github
