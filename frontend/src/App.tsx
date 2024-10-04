@@ -1,19 +1,19 @@
 import Demo from "./Component/Demo";
 import Hero from "./Component/Hero";
 import "./index.css";
+
 const App = () => {
   return (
-    <div>
-      <div className="main">
-        <div className="gradient"/>
+    <div className="overflow-hidden w-full">
+      <div className="main overflow-x-hidden w-full">
+        <div className="gradient" />
       </div>
-      <div className="app font-orbitron">
+      <div className="app font-orbitron w-full">
         <Hero />
         <Demo />
       </div>
-   
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

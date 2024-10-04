@@ -8,7 +8,7 @@ const Hero = () => {
         {/* Logo and Title */}
         <div className="flex items-center">
           <img src={logo} alt="logo" className="h-6 object-cover mr-2" />
-          <h1 className="font-extrabold text-3xl  orange_gradient">Summarizer</h1>
+          <h1 className="font-extrabold md:text-3xl text-lg orange_gradient">Summarizer</h1>
         </div>
 
         {/* Button on the right */}
@@ -16,9 +16,9 @@ const Hero = () => {
           <button
             type="button"
             onClick={() => window.open("https://github.com/Allcrownworks/summarizer.git")}
-            className="py-1 px-8 bg-orange-500 rounded-lg text-white"
+            className="py-1 px-4 md:px-8 bg-orange-500 rounded-lg text-white"
           >
-            Github
+            <p className="sm">Github</p>
           </button>
         </div>
       </nav>
